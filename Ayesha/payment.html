@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body background="https://www.backgroundcheckall.com/wp-content/uploads/2017/12/background-images-for-shopping-website-hd-5.jpg">
+<h1 style="text-align: center">Payment Details</h1>
+	<form action="/Ayesha/PaymentController" method="post">
+	<table style="margin-left: 35%;">
+		<tr>
+			<td>Enter your Name:</td>
+			<td><input type="text" name="cardHolderName" placeholder="enter the name">
+		</tr>
+		<tr>
+			<td>Choose Card Type:</td>
+			<td><select name="cardType"><option value="Debit Card">Debit
+						card</option>
+					<option value="Credit Card">Credit card</option></select>
+		</tr>
+		<tr>
+			<td>Card Number:</td>
+			<td><input type="number" name="cardNumber" placeholder="enter the number">
+		</tr>
+		<tr>
+			<td>Expiry Date:</td>
+			<td><input type="date" name="cardExpirydate">
+		</tr>
+		<tr>
+			<td>Card Verification Number:</td>
+			<td><input type="number" name="cardCVV" placeholder="enter cvv">
+		</tr>
+				
+		
+		<tr>
+			<td><input type="submit"
+					value="PAY"></td>
+			 <td><input type="button" value="RESET"></td>
+			 <tr>
+
+		</tr>
+		
+		
+		
+	</table>
+	</form>
+</body>
+</html>
